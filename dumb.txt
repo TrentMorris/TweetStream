@@ -1,0 +1,73 @@
+libraryDependencies ++= Seq( 
+   "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.2",
+   "org.apache.commons" % "commons-io" % "1.3.2",
+   "org.apache.httpcomponents" % "httpclient" % "4.1.2",
+	"org.specs2" %% "specs2" % "2.3.12" % "test")
+
+scalacOptions in Test ++= Seq("-Yrangepos")
+
+resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo)
+
+
+
+import java.util.ArrayList
+import java.io._
+
+import org.apache.http.impl.client.DefaultHttpClient
+import org.apache.http.client.methods.HttpGet
+import org.apache.http.HttpResponse
+import org.apache.http.client.methods.HttpPost
+import org.apache.http.HttpEntity 
+import org.apache.http.util.EntityUtils
+import org.apache.http.NameValuePair
+import org.apache.http.message.BasicNameValuePair
+import org.apache.http.client.entity.UrlEncodedFormEntity
+import org.apache.http.protocol.HTTP
+
+object apacheGhostProtocol{
+	def main(args: Array[String]):Unit = {
+		val username = "TMO1225"
+		val password = "wri17com"
+		// val entityAdder = new ArrayList[NameValuePair]()
+		// entityAdder.add(new BasicNameValuePair("user",username))
+		// entityAdder.add(new BasicNameValuePair("password",password))
+
+		val client = new DefaultHttpClient()
+
+		// var request = new HttpGet("https://www.na.citiprepaid.com/login/submit.do")
+		// var response = client.execute(request)
+		// var entityResponse = response.getEntity()
+		// EntityUtils.consume(entityResponse)
+
+
+		// val post = new HttpPost("https://www.google.com")
+		// post.setEntity(new UrlEncodedFormEntity(entityAdder))
+		// response = client.execute(post)
+		// entityResponse = response.getEntity()
+		// EntityUtils.consume(entityResponse)
+
+		// var request = new HttpGet("https://stream.twitter.com/1.1/statuses/sample.json")
+		var request = new HttpGet("https://stream.twitter.com/1.1/statuses/sample.json")
+		var response = client.execute(request)
+		var entityResponse = response.getEntity()
+		//EntityUtils.consume(entityResponse)
+
+
+		val HTMLoutput = EntityUtils.toString(entityResponse)
+		val writer = new PrintWriter(new File("website.html" ))
+		writer.write(HTMLoutput)
+      	writer.close()
+		client.getConnectionManager().shutdown()
+		
+	}
+}
+
+
+//Twitter4j tutorial
+http://bcomposes.wordpress.com/2013/02/09/using-twitter4j-with-scala-to-access-streaming-tweets/
+http://blog.knoldus.com/2012/12/10/communicating-with-twitter-via-twitter4j-using-scala/
+
+
+
+Every status gets passed to akka actor similar to Pi calculation. Once processed gets handed to a "compiler of information" that 
+deals with it every now and then.  Can call method that makes actors basically
