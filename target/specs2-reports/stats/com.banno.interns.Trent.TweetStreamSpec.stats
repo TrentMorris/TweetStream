@@ -1,0 +1,80 @@
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407374345432"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:8)" id="-1007034469"><stats expectations="1" examples="1" failures="1" time="28"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407374345464"><stats expectations="1" examples="1" failures="1" time="13"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407374378259"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:8)" id="-1007034469"><stats expectations="1" examples="1" failures="1" time="67"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407374378271"><stats expectations="1" examples="1" failures="1" time="18"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407374478947"><stats expectations="1" examples="1" successes="1" time="16"><trend><stats failures="-1" successes="1" time="16"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407375168369"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:13)" id="175152101"><stats expectations="1" examples="1" failures="1" time="84"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407375168396"><stats expectations="2" successes="1" examples="2" failures="1" time="16"><trend><stats expectations="1" examples="1" failures="1" time="16"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407375200655"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:13)" id="175152101"><stats expectations="1" examples="1" failures="1" time="76"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407375200670"><stats expectations="2" successes="1" examples="2" failures="1" time="19"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407375541569"><stats expectations="2" examples="2" successes="2" time="25"><trend><stats failures="-1" successes="1" time="25"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407436079028"><stats expectations="2" examples="2" successes="2" time="29"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407436215801"><stats expectations="3" examples="3" successes="3" time="15"><trend><stats expectations="1" examples="1" successes="1" time="15"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407513261004"><stats expectations="3" examples="3" successes="3" time="16"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407513291615"><stats expectations="3" examples="3" successes="3" time="15"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407513840869"><stats expectations="3" examples="3" successes="3" time="13"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407523209843"><stats expectations="3" examples="3" successes="3" time="51"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407523312431"><stats expectations="3" examples="3" successes="3" time="23"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407523337868"><stats expectations="3" examples="3" successes="3" time="44"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407523438736"><stats expectations="3" examples="3" successes="3" time="23"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407523636274"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:24)" id="393285031"><stats time="111" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407523636291"><stats time="35" successes="2" examples="3" expectations="3" pending="1"><trend><stats time="35" successes="-1" pending="1"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407523689069"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:24)" id="-466103148"><stats time="69" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:28)" id="-2041749355"><stats time="69" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:32)" id="-1500390069"><stats time="4" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:36)" id="881639415"><stats time="3" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407523689080"><stats time="31" successes="2" examples="6" expectations="6" pending="4"><trend><stats time="31" examples="3" expectations="3" pending="3"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407525389470"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:24)" id="-466103148"><stats time="102" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:28)" id="-2041749355"><stats time="102" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:32)" id="-1500390069"><stats time="6" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:36)" id="881639415"><stats time="7" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407525389495"><stats time="31" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407525412013"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:22)" id="-466103148"><stats time="80" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:26)" id="-2041749355"><stats time="76" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:30)" id="-1500390069"><stats time="6" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:34)" id="881639415"><stats time="8" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407525412021"><stats time="93" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407765497449"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:22)" id="-466103148"><stats time="81" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:26)" id="-2041749355"><stats time="82" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:30)" id="-1500390069"><stats time="15" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:34)" id="881639415"><stats time="14" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407765497465"><stats time="145" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407765515007"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:22)" id="-466103148"><stats time="79" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:26)" id="-2041749355"><stats time="78" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:30)" id="-1500390069"><stats time="5" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:34)" id="881639415"><stats time="2" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407765515048"><stats time="53" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407765533608"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:22)" id="-466103148"><stats time="146" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:26)" id="-2041749355"><stats time="150" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:30)" id="-1500390069"><stats time="1" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:34)" id="881639415"><stats time="2" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407765533643"><stats time="44" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407765638527"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:22)" id="-466103148"><stats time="68" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:26)" id="-2041749355"><stats time="65" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:30)" id="-1500390069"><stats time="4" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:34)" id="881639415"><stats time="3" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407765638543"><stats time="28" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407766465956"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:22)" id="-466103148"><stats time="55" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:26)" id="-2041749355"><stats time="65" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:30)" id="-1500390069"><stats time="10" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:34)" id="881639415"><stats time="8" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407766465977"><stats time="30" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-results timestamp="1407766489574"><result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:22)" id="-466103148"><stats time="139" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:26)" id="-2041749355"><stats time="139" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:30)" id="-1500390069"><stats time="7" examples="1" expectations="1" pending="1"></stats></result>
+<result location="com.banno.interns.Trent.TweetStreamSpec (tweetstreamTest.scala:34)" id="881639415"><stats time="5" examples="1" expectations="1" pending="1"></stats></result>
+</com.banno.interns.Trent.TweetStreamSpec-results>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1407766489582"><stats time="47" successes="2" examples="6" expectations="6" pending="4"></stats></com.banno.interns.Trent.TweetStreamSpec-stats>

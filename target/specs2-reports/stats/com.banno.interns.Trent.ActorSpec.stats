@@ -1,0 +1,20 @@
+<com.banno.interns.Trent.ActorSpec-results timestamp="1407523313602"><result location="com.banno.interns.Trent.ActorSpec (tweetstreamTest.scala:57)" id="-1602258459"><stats expectations="1" examples="1" errors="1" time="1483"></stats></result>
+</com.banno.interns.Trent.ActorSpec-results>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407523313603"><stats expectations="1" examples="1" errors="1" time="1487"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407523339092"><stats expectations="1" examples="1" successes="1" time="1566"><trend><stats errors="-1" successes="1" time="1566"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407523439980"><stats expectations="1" examples="1" successes="1" time="1494"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407523637461"><stats expectations="1" examples="1" successes="1" time="1473"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407523690304"><stats expectations="1" examples="1" successes="1" time="1512"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407525390663"><stats expectations="1" examples="1" successes="1" time="1492"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407525413209"><stats expectations="1" examples="1" successes="1" time="1508"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407765497654"><stats expectations="1" examples="1" successes="1" time="762"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-results timestamp="1407765515106"><result location="com.banno.interns.Trent.ActorSpec (tweetstreamTest.scala:55)" id="1633041876"><stats expectations="1" examples="1" failures="1" time="709"></stats></result>
+</com.banno.interns.Trent.ActorSpec-results>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407765515108"><stats expectations="1" examples="1" failures="1" time="717"><trend><stats failures="1" successes="-1" time="717"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407765533915"><stats expectations="1" examples="1" successes="1" time="723"><trend><stats failures="-1" successes="1" time="723"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407765638795"><stats expectations="2" examples="2" successes="2" time="527"><trend><stats expectations="1" examples="1" successes="1" time="527"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-results timestamp="1407766466305"><result location="com.banno.interns.Trent.ActorSpec (tweetstreamTest.scala:54)" id="2098497776"><stats expectations="1" examples="1" failures="1" time="595"></stats></result>
+<result location="com.banno.interns.Trent.ActorSpec (tweetstreamTest.scala:62)" id="2098497776"><stats expectations="1" examples="1" failures="1" time="161"></stats></result>
+</com.banno.interns.Trent.ActorSpec-results>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407766466307"><stats expectations="2" examples="2" failures="2" time="760"><trend><stats failures="2" successes="-2" time="760"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1407766489835"><stats expectations="2" examples="2" successes="2" time="665"><trend><stats failures="-2" successes="2" time="665"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>

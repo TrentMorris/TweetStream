@@ -1,4 +1,7 @@
-[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.banno.interns.Trent.ActorSpec, sbt.SubclassFingerprintWrapper@6770b0aa, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.banno.interns.Trent.TweetStreamSpec, sbt.SubclassFingerprintWrapper@4f74cc42, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
-[0m[[0minfo[0m] [0mNo tests to run for test:test[0m
+[0m[[0minfo[0m] [0mPassed: Total 8, Failed 0, Errors 0, Passed 4, Skipped 4[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	com.banno.interns.Trent.TweetStreamSpec[0m
+[0m[[0mdebug[0m] [0m	com.banno.interns.Trent.ActorSpec[0m

@@ -7,7 +7,7 @@
 		revision="0.1.0 "
 		conf="scala-tool"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140715213126"/>
+		date="20140718152024"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-compiler">
 			<revision name="2.10.0" status="release" pubdate="20121220012948" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, optional, compile, runtime, optional(default), master" position="0">
@@ -22,14 +22,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="jline">
-			<revision name="2.10.0" status="release" pubdate="20121220012927" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), compile(*), master" position="3">
-				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
-			"/>
+			<revision name="2.10.0" status="release" pubdate="20121220012927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), compile(*), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="2030" time="350" location="/home/trent/.ivy2/cache/org.scala-lang/jline/ivy-2.10.0.xml" searched="true" original-local-location="/home/trent/.ivy2/cache/org.scala-lang/jline/ivy-2.10.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.pom"/>
+				<metadata-artifact status="no" details="" size="2607" time="0" location="/home/trent/.ivy2/cache/org.scala-lang/jline/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="optional" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<artifacts>
-					<artifact name="jline" type="jar" ext="jar" status="successful" details="" size="164623" time="526" location="/home/trent/.ivy2/cache/org.scala-lang/jline/jars/jline-2.10.0.jar">
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="164623" time="0" location="/home/trent/.ivy2/cache/org.scala-lang/jline/jars/jline-2.10.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.0/jline-2.10.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -67,7 +66,7 @@
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="7114639" time="6634" location="/home/trent/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7114639" time="0" location="/home/trent/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar"/>
 					</artifact>
 				</artifacts>

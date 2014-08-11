@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mTweetStreamSpec[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mnLargestValuesFromMap should[0m
+[0m[[0minfo[0m] [0m[32m+[0m return List of items from map[0m
+[0m[[0minfo[0m] [0m[32m+[0m return whole list if parameter larger than map[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mcontainsPictureURL should[0m
+[0m[[0minfo[0m] [0m[34m[34m*[0m return true if pic.twitter in list of URLs Pending until fixed[0m[0m
+[0m[[0minfo[0m] [0m[34m[34m*[0m return true if instagram  in list of URLs Pending until fixed[0m[0m
+[0m[[0minfo[0m] [0m[34m[34m*[0m return false if  pic.twitter in list of URLs Pending until fixed[0m[0m
+[0m[[0minfo[0m] [0m[34m[34m*[0m return true if instagram in list of URLs Pending until fixed[0m[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mTotal for specification TweetStreamSpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 47 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m6 examples, 0 failure, 0 error, 4 pendings[0m[0m
+[0m[[0minfo[0m] [0m[0m

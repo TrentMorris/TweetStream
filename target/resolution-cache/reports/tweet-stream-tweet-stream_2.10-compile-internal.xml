@@ -7,41 +7,71 @@
 		revision="0.1.0 "
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140715213126"/>
+		date="20140718152024"/>
 	<dependencies>
 		<module organisation="org.twitter4j" name="twitter4j-stream">
-			<revision name="3.0.3" status="release" pubdate="20121223061417" resolver="public" artresolver="public" homepage="http://twitter4j.org/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+			<revision name="3.0.3" status="release" pubdate="20121223061417" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="7644" time="486" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml" searched="true" original-local-location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom"/>
+				<metadata-artifact status="no" details="" size="3418" time="0" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom"/>
 				<caller organisation="tweet-stream" name="tweet-stream_2.10" conf="optional, compile, provided, compile-internal" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="0.1.0 "/>
 				<artifacts>
-					<artifact name="twitter4j-stream" type="jar" ext="jar" status="successful" details="" size="56307" time="343" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-stream/jars/twitter4j-stream-3.0.3.jar">
+					<artifact name="twitter4j-stream" type="jar" ext="jar" status="no" details="" size="56307" time="0" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-stream/jars/twitter4j-stream-3.0.3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.twitter4j" name="twitter4j-core">
-			<revision name="3.0.3" status="release" pubdate="20121223061256" resolver="public" artresolver="public" homepage="http://twitter4j.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+			<revision name="3.0.3" status="release" pubdate="20121223061256" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="8032" time="281" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml" searched="true" original-local-location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom"/>
+				<metadata-artifact status="no" details="" size="3561" time="0" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom"/>
 				<caller organisation="org.twitter4j" name="twitter4j-stream" conf="default, compile, runtime, master" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="3.0.3"/>
 				<artifacts>
-					<artifact name="twitter4j-core" type="jar" ext="jar" status="successful" details="" size="284077" time="650" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-3.0.3.jar">
+					<artifact name="twitter4j-core" type="jar" ext="jar" status="no" details="" size="284077" time="0" location="/home/trent/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-3.0.3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor">
+			<revision name="2.0.2" status="release" pubdate="20140604001630" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2496" time="0" location="/home/trent/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.2/akka-actor-2.0.2.pom"/>
+				<caller organisation="tweet-stream" name="tweet-stream_2.10" conf="optional, compile, provided, compile-internal" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="0.1.0 "/>
+				<artifacts>
+					<artifact name="akka-actor" type="jar" ext="jar" status="no" details="" size="1853029" time="0" location="/home/trent/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.2.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.2/akka-actor-2.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka">
+			<revision name="2.0.2" status="release" pubdate="20140717113938" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2417" time="0" location="/home/trent/.ivy2/cache/com.typesafe.akka/akka/ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka/2.0.2/akka-2.0.2.pom"/>
+				<caller organisation="tweet-stream" name="tweet-stream_2.10" conf="optional, compile, provided, compile-internal" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="0.1.0 "/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.10.0" status="release" pubdate="20121220012916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+			<revision name="2.10.0" status="release" pubdate="20121220012916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="0">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
 				<metadata-artifact status="no" details="" size="2392" time="0" location="/home/trent/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://nexus.banno.com/nexus/content/groups/external/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.pom"/>
 				<caller organisation="tweet-stream" name="tweet-stream_2.10" conf="optional, compile, provided, compile-internal" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1.0 "/>
+				<caller organisation="com.typesafe.akka" name="akka" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.0.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.0.2"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="7114639" time="6634" location="/home/trent/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7114639" time="0" location="/home/trent/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.9.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.10.0"/>
+				<caller organisation="com.typesafe.akka" name="akka" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.0.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.0.2"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>

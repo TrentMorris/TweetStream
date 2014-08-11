@@ -1,8 +1,9 @@
 package com.banno.interns.Trent
 
 import twitter4j._
+import akka.actor._
 
-
+case class ProcessedTweet(emoji: Boolean, url: Boolean, photoUrl: Boolean, topUrls: Boolean, topEmojis: Boolean)
 object Util {
   val config = new twitter4j.conf.ConfigurationBuilder()
     .setOAuthConsumerKey("tFaWcmCxAAjGJJL13FJ5pIJMm")
@@ -11,9 +12,15 @@ object Util {
     .setOAuthAccessTokenSecret("bhKTosUG1K0aKnO51hNm5wX5HHTX3JqV2TI4X3ym2vejH")
     .build
 
+  val system = ActorSystem("TweetSystem")
+  val master = system.actorOf(Props(new Master()), name = "master")
+  
   def simpleStatusListener = new StatusListener() {
-  	var counter = 0
-    def onStatus(status: Status) {counter += 1; println(status+"\n") } //processTweet(status) }
+    def onStatus(status: Status) {
+      master ! Hashtag(status.getHashtagEntities)
+      master ! URLs(status.getURLEntities)
+      master ! Tweet(status.getText())
+    } 
     def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) {}
     def onTrackLimitationNotice(numberOfLimitedStatuses: Int) {}
     def onException(ex: Exception) { ex.printStackTrace }
@@ -22,29 +29,17 @@ object Util {
   }
 }
 
+
 object StatusStreamer {
   def main(args: Array[String]) {
+
     val twitterStream = new TwitterStreamFactory(Util.config).getInstance
     twitterStream.addListener(Util.simpleStatusListener)
     twitterStream.sample
-    // Thread.sleep(10000)
-    // twitterStream.cleanUp
-    // twitterStream.shutdown
 
     // val twitter = new TwitterFactory(Util.config).getInstance()
-    // twitter.updateStatus("Tweet made from Scala program by papmorris7")
+    // twitter.updateStatus("Tweet made from Scala program by papamorris7")
   }
 }
 
-/*
-      def hasPicture(urls: Array[URLEntity]): Boolean = urls.toList match {
-        case Nil => false
-        case h :: t => println(h.getDisplayURL.toString); """(pic\.twitter\.com\/.*)""".r.findFirstIn(h.getDisplayURL.toString) match {
-          case Some(_) => true
-          case None => """(instagram\.com\/p\/)""".r.findFirstIn(h.getDisplayURL.toString) match {
-            case Some(_) => true
-            case None => hasPicture(t.toArray)
-          }
-        }
-      }
-*/
+

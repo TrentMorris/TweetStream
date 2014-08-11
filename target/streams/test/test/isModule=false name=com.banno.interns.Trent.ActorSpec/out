@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mActorSpec[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mA URLActor should[0m
+[0m[[0minfo[0m] [0m[32m+[0m print when sent PrintResults and send done msg[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mA hashtagActor should[0m
+[0m[[0minfo[0m] [0m[32m+[0m print when sent PrintResults and send done msg[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mTotal for specification ActorSpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 665 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m2 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[0m
