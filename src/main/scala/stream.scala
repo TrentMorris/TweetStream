@@ -3,7 +3,6 @@ package com.banno.interns.Trent
 import twitter4j._
 import akka.actor._
 
-case class ProcessedTweet(emoji: Boolean, url: Boolean, photoUrl: Boolean, topUrls: Boolean, topEmojis: Boolean)
 object Util {
   val config = new twitter4j.conf.ConfigurationBuilder()
     .setOAuthConsumerKey("tFaWcmCxAAjGJJL13FJ5pIJMm")
@@ -20,6 +19,7 @@ object Util {
       master ! Hashtag(status.getHashtagEntities)
       master ! URLs(status.getURLEntities)
       master ! Tweet(status.getText())
+      master ! Language(status.getUser().getLang())
     } 
     def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) {}
     def onTrackLimitationNotice(numberOfLimitedStatuses: Int) {}
@@ -29,10 +29,8 @@ object Util {
   }
 }
 
-
 object StatusStreamer {
   def main(args: Array[String]) {
-
     val twitterStream = new TwitterStreamFactory(Util.config).getInstance
     twitterStream.addListener(Util.simpleStatusListener)
     twitterStream.sample
