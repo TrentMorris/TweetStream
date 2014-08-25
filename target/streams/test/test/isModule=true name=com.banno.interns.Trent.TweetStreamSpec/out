@@ -7,14 +7,11 @@
 [0m[[0minfo[0m] [0mcontainsPictureURL should[0m
 [0m[[0minfo[0m] [0m[34m[34m*[0m return true if pic.twitter in list of URLs Pending until fixed[0m[0m
 [0m[[0minfo[0m] [0m[34m[34m*[0m return true if instagram  in list of URLs Pending until fixed[0m[0m
-[0m[[0minfo[0m] [0m[34m[34m*[0m return false if  no image url in list of URLs Pending until fixed[0m[0m
 [0m[[0minfo[0m] [0m[34m[34m*[0m return true if both image URLs are in list of URLs Pending until fixed[0m[0m
-[0m[[0minfo[0m] [0m [0m
-[0m[[0minfo[0m] [0mformatResults should[0m
-[0m[[0minfo[0m] [0m[32m+[0m format results[0m
+[0m[[0minfo[0m] [0m[32m+[0m return false if  no image url in list of URLs[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mTotal for specification TweetStreamSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 23 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m7 examples, 0 failure, 0 error, 4 pendings[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 93 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m6 examples, 0 failure, 0 error, 3 pendings[0m[0m
 [0m[[0minfo[0m] [0m[0m

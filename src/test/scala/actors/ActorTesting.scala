@@ -48,6 +48,15 @@ class ActorSpec extends Specification with NoTimeConversions {
       }
     }
   }
+  "Master actor" should {
+    "print after 1000 tweets" in new AkkaTestkitSpecs2Support {
+      within(1 second) {
+      val master = system.actorOf(Props(new Master()), name = "master")
+      for (x <- 0 to 1000) master ! Tweet("test")
+      expectNoMsg
+      }
+    }
+  }
   // "Master Actor" should {
   //   "print everything on 1000th tweet" in new AkkaTestkitSpecs2Support {
   //     within (10 second) {

@@ -7,31 +7,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a659aeb[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bd2dbcd[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-stream;3.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-stream;3.0.3 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
-[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-stream;3.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;3.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;3.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;3.0.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-core;3.0.3[0m
-[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;3.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor;2.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor;2.0.3 {compile=[default(compile)]}[0m
@@ -54,6 +36,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-stream;3.0.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-stream;3.0.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-stream;3.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;3.0.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;3.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;3.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [compile][0m
@@ -61,14 +61,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->compile][0m
@@ -81,6 +73,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [runtime][0m
@@ -89,14 +89,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->compile][0m
@@ -109,6 +101,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.specs2#specs2_2.9.2;1.12.4.1 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.9.2;1.12.4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.specs2#specs2_2.9.2;1.12.4.1 {test=[default(compile)]}[0m
@@ -161,14 +161,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->compile][0m
@@ -181,6 +173,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -191,14 +191,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->compile][0m
@@ -211,6 +203,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [test-internal][0m
@@ -221,14 +221,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->compile][0m
@@ -241,6 +233,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.specs2#specs2_2.9.2;1.12.4.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.specs2#specs2_2.9.2;1.12.4.1 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.specs2#specs2_2.9.2;1.12.4.1 [test->compile][0m
@@ -318,11 +318,11 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/tweet-stream/tweet-stream_2.9.2/0.1.0 /resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-stream;3.0.3!twitter4j-stream.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor;2.0.3!akka-actor.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor;2.0.3!akka-actor.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-stream;3.0.3!twitter4j-stream.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;0.3.1!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.9.2;1.12.4.1!specs2_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit;2.0.3!akka-testkit.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit;2.0.3!akka-testkit.jar[0m
@@ -330,7 +330,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.9.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 619ms :: artifacts dl 22ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 524ms :: artifacts dl 20ms[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  compile produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  runtime produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  test produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-test.xml[0m
@@ -344,5 +344,5 @@
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  docs produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  pom produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  scala-tool produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (619ms resolve - 22ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (524ms resolve - 20ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

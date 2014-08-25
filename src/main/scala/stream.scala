@@ -2,6 +2,8 @@ package com.banno.interns.Trent
 
 import twitter4j._
 import akka.actor._
+import twitter4j.json.DataObjectFactory
+
 
 object Util {
   val config = new twitter4j.conf.ConfigurationBuilder()

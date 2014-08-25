@@ -86,3 +86,58 @@
 <com.banno.interns.Trent.ActorSpec-stats timestamp="1408309196689"><stats expectations="4" examples="4" successes="4" time="556"></stats></com.banno.interns.Trent.ActorSpec-stats>
 <com.banno.interns.Trent.ActorSpec-stats timestamp="1408309238366"><stats expectations="4" examples="4" successes="4" time="541"></stats></com.banno.interns.Trent.ActorSpec-stats>
 <com.banno.interns.Trent.ActorSpec-stats timestamp="1408309253065"><stats expectations="4" examples="4" successes="4" time="577"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408487862110"><stats expectations="4" examples="4" successes="4" time="976"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-results timestamp="1408539411118"><result location="com.banno.interns.Trent.ActorSpec (ActorTesting.scala:52)" id="1107026956"><stats expectations="1" examples="1" errors="1" time="2041"></stats></result>
+</com.banno.interns.Trent.ActorSpec-results>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408539411150"><stats expectations="5" successes="4" examples="5" errors="1" time="3454"><trend><stats expectations="1" examples="1" errors="1" time="3454"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-results timestamp="1408539448607"><result location="com.banno.interns.Trent.ActorSpec (ActorTesting.scala:52)" id="1107026956"><stats expectations="1" examples="1" errors="1" time="10033"></stats></result>
+</com.banno.interns.Trent.ActorSpec-results>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408539448616"><stats expectations="5" successes="4" examples="5" errors="1" time="10840"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-results timestamp="1408539514261"><result location="com.banno.interns.Trent.ActorSpec (ActorTesting.scala:52)" id="1107026956"><stats expectations="1" examples="1" errors="1" time="10039"></stats></result>
+</com.banno.interns.Trent.ActorSpec-results>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408539514266"><stats expectations="5" successes="4" examples="5" errors="1" time="10888"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408548039886"><stats expectations="5" examples="5" successes="5" time="11087"><trend><stats errors="-1" successes="1" time="11087"></stats></trend></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408564647500"><stats expectations="5" examples="5" successes="5" time="2461"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408805653386"><stats expectations="5" examples="5" successes="5" time="2302"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408815717006"><stats expectations="5" examples="5" successes="5" time="2304"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408833432094"><stats expectations="5" examples="5" successes="5" time="1625"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408833514941"><stats expectations="5" examples="5" successes="5" time="1636"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408833680181"><stats expectations="5" examples="5" successes="5" time="1711"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408833979193"><stats expectations="5" examples="5" successes="5" time="1792"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408834174171"><stats expectations="5" examples="5" successes="5" time="1606"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408834474362"><stats expectations="5" examples="5" successes="5" time="1393"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408834605513"><stats expectations="5" examples="5" successes="5" time="1635"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408834934075"><stats expectations="5" examples="5" successes="5" time="1535"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408835136615"><stats expectations="5" examples="5" successes="5" time="1896"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408835462760"><stats expectations="5" examples="5" successes="5" time="1866"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408835733846"><stats expectations="5" examples="5" successes="5" time="1896"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836449735"><stats expectations="5" examples="5" successes="5" time="2598"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836492588"><stats expectations="5" examples="5" successes="5" time="1701"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836525728"><stats expectations="5" examples="5" successes="5" time="1950"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836598013"><stats expectations="5" examples="5" successes="5" time="1687"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836725369"><stats expectations="5" examples="5" successes="5" time="1828"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836739911"><stats expectations="5" examples="5" successes="5" time="1664"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836773916"><stats expectations="5" examples="5" successes="5" time="1628"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836876629"><stats expectations="5" examples="5" successes="5" time="1393"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408836941070"><stats expectations="5" examples="5" successes="5" time="1428"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408837063176"><stats expectations="5" examples="5" successes="5" time="1919"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408837132067"><stats expectations="5" examples="5" successes="5" time="1395"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408837171791"><stats expectations="5" examples="5" successes="5" time="1398"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408837303583"><stats expectations="5" examples="5" successes="5" time="1928"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408837375775"><stats expectations="5" examples="5" successes="5" time="1481"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408837599277"><stats expectations="5" examples="5" successes="5" time="2061"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408840553351"><stats expectations="5" examples="5" successes="5" time="1699"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408840579256"><stats expectations="5" examples="5" successes="5" time="1941"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408840593545"><stats expectations="5" examples="5" successes="5" time="1638"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408840838001"><stats expectations="5" examples="5" successes="5" time="1687"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408840928042"><stats expectations="5" examples="5" successes="5" time="1962"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408841123654"><stats expectations="5" examples="5" successes="5" time="1690"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408841267860"><stats expectations="5" examples="5" successes="5" time="1673"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408841327937"><stats expectations="5" examples="5" successes="5" time="1981"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408841339467"><stats expectations="5" examples="5" successes="5" time="1678"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408841371181"><stats expectations="5" examples="5" successes="5" time="1944"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408841384830"><stats expectations="5" examples="5" successes="5" time="1679"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408982962327"><stats expectations="5" examples="5" successes="5" time="2619"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408983020069"><stats expectations="5" examples="5" successes="5" time="2120"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408983128114"><stats expectations="5" examples="5" successes="5" time="1781"></stats></com.banno.interns.Trent.ActorSpec-stats>
+<com.banno.interns.Trent.ActorSpec-stats timestamp="1408983617872"><stats expectations="5" examples="5" successes="5" time="2198"></stats></com.banno.interns.Trent.ActorSpec-stats>

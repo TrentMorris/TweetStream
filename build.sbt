@@ -8,8 +8,8 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 
 libraryDependencies ++= Seq(
 	"org.specs2" %% "specs2" % "1.12.4.1" % "test",
-	"org.twitter4j" % "twitter4j-stream" % "3.0.3",
 	"com.typesafe.akka" % "akka-actor"        % "2.0.3" withSources,
-  	"com.typesafe.akka" % "akka-testkit"      % "2.0.3" % "test" withSources)
+  	"com.typesafe.akka" % "akka-testkit"      % "2.0.3" % "test" withSources,
+	"org.twitter4j" % "twitter4j-stream" % "3.0.3")
 
 resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo)

@@ -66,10 +66,3 @@ class Master extends Actor {
     }
   }
 }
-// class Results extends Actor {
-//   def receive = {
-//     case p @ PrintResults(_, _, _, _, _, _ ) => {
-//       println(TweetMethods.formatResults(p))
-//     }
-//   }
-// }
