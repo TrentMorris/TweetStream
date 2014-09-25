@@ -10,4 +10,4 @@
 [0m[[0mdebug[0m] [0m	/home/trent/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-3.0.3.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main to exit[0m
 [0m[[0mdebug[0m] [0m	Thread run-main exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread TweetSystem-akka.actor.default-dispatcher-1 to exit[0m
+[0m[[0mdebug[0m] [0mWaiting for thread TweetSystem-akka.actor.default-dispatcher-3 to exit[0m

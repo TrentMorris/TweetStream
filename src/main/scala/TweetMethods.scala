@@ -3,9 +3,9 @@ package com.banno.interns.Trent
 import twitter4j._
 
 object TweetMethods {
-  def containsPictureURL(urls: Array[URLEntity]): Boolean = {
+  def containsPictureURL(urls: Array[String]): Boolean = {
     for (url <- urls) {
-      if (url.getDisplayURL.contains("pic.twitter.com") || url.getDisplayURL.contains("instagram.com/p/")) return true
+      if (url.contains("pic.twitter.com") || url.contains("instagram.com")) return true
     }
     false
   }

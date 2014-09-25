@@ -2,21 +2,22 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mA URLActor should[0m
 [0m[[0minfo[0m] [0m[32m+[0m print when sent PrintResults and send done msg[0m
+[0m[[0minfo[0m] [0m[32m+[0m have a url in the dictionary after it's sent[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mA hashtagActor should[0m
 [0m[[0minfo[0m] [0m[32m+[0m print when sent PrintResults and send done msg[0m
+[0m[[0minfo[0m] [0m[32m+[0m have a hashtag in the dictionary after it's sent[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mAn emojiActor should[0m
 [0m[[0minfo[0m] [0m[32m+[0m print when sent PrintResults and send done msg[0m
+[0m[[0minfo[0m] [0m[32m+[0m have a emoji in the dictionary after it's sent[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mA langActor should[0m
 [0m[[0minfo[0m] [0m[32m+[0m print when sent PrintResults and send done msg[0m
-[0m[[0minfo[0m] [0m [0m
-[0m[[0minfo[0m] [0mMaster actor should[0m
-[0m[[0minfo[0m] [0m[32m+[0m print after 1000 tweets[0m
+[0m[[0minfo[0m] [0m[32m+[0m have a language in the dictionary after it's sent[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mTotal for specification ActorSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 2 seconds, 198 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m5 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 733 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m8 examples, 0 failure, 0 error[0m[0m
 [0m[[0minfo[0m] [0m[0m

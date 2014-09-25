@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for tweet-stream#tweet-stream_2.9.2;0.1.0  [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bd2dbcd[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60058892[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
@@ -17,9 +17,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor;2.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor;2.0.3 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor;2.0.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor;2.0.3[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor;2.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/com.typesafe.akka/akka-actor/2.0.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor;2.0.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.akka#akka-actor;2.0.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.typesafe.akka#akka-actor;2.0.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom (2.0.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0.3!akka-actor.pom(pom.original) (321ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/com.typesafe.akka/akka-actor/2.0.3/jars/akka-actor.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor;2.0.3 in Typesafe Repository[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-actor;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -27,9 +42,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;0.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;0.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;0.3.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;0.3.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#config;0.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/com.typesafe/config/0.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;0.3.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe#config;0.3.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.pom (0.3.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;0.3.1!config.pom(pom.original) (175ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/com.typesafe/config/0.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;0.3.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->com.typesafe#config;0.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.3->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
@@ -39,17 +64,37 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-stream;3.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-stream;3.0.3 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
-[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-stream;3.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/org.twitter4j/twitter4j-stream/3.0.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom (3.0.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-stream;3.0.3!twitter4j-stream.pom(pom.original) (235ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/org.twitter4j/twitter4j-stream/3.0.3/jars/twitter4j-stream.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-stream;3.0.3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;3.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;3.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;3.0.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-core;3.0.3[0m
-[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;3.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/org.twitter4j/twitter4j-core/3.0.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom (3.0.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.pom(pom.original) (192ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/org.twitter4j/twitter4j-core/3.0.3/jars/twitter4j-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;3.0.3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
@@ -136,9 +181,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-testkit;2.0.3 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit;2.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit;2.0.3 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit;2.0.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-testkit;2.0.3[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit;2.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/com.typesafe.akka/akka-testkit/2.0.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-testkit;2.0.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.akka#akka-testkit;2.0.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.typesafe.akka#akka-testkit;2.0.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom (2.0.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-testkit;2.0.3!akka-testkit.pom(pom.original) (308ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/trent/.ivy2/local/com.typesafe.akka/akka-testkit/2.0.3/jars/akka-testkit.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit;2.0.3 in Typesafe Repository[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-testkit;2.0.3 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tweet-stream#tweet-stream_2.9.2;0.1.0 ->com.typesafe.akka#akka-testkit;2.0.3 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit;2.0.3->com.typesafe.akka#akka-actor;2.0.3 [compile->master(*)][0m
@@ -318,19 +378,54 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/tweet-stream/tweet-stream_2.9.2/0.1.0 /resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor;2.0.3!akka-actor.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor;2.0.3!akka-actor.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-stream;3.0.3!twitter4j-stream.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;0.3.1!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0.3!akka-actor.jar (4067ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3-sources.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.3/akka-actor-2.0.3-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0.3!akka-actor.jar(src) (868ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/twitter4j/twitter4j-stream/3.0.3/twitter4j-stream-3.0.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-stream;3.0.3!twitter4j-stream.jar (162ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;0.3.1!config.jar(bundle) (170ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.jar (218ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.9.2;1.12.4.1!specs2_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit;2.0.3!akka-testkit.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit;2.0.3!akka-testkit.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3-sources.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-testkit;2.0.3!akka-testkit.jar(src) (405ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-testkit/2.0.3/akka-testkit-2.0.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-testkit;2.0.3!akka-testkit.jar (912ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-scalaz-core_2.9.2;6.0.1!specs2-scalaz-core_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.9.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 524ms :: artifacts dl 20ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3444ms :: artifacts dl 6933ms[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  compile produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  runtime produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  test produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-test.xml[0m
@@ -344,5 +439,5 @@
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  docs produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  pom produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for tweet-stream#tweet-stream_2.9.2;0.1.0  scala-tool produced in /home/trent/Dropbox/Projects/TweetStream/target/resolution-cache/reports/tweet-stream-tweet-stream_2.9.2-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (524ms resolve - 20ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3444ms resolve - 6933ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -12,15 +12,15 @@ class URLActor extends Actor {
   def receive = {
     case u @ URLs(_) => {
       for (url <- u.urls) {
-        val domain = url.getDisplayURL.takeWhile(x => x != '/')
-        if (urlMap.contains(domain)) urlMap(domain) += 1
-        else urlMap.put(domain, 1)
+        if (urlMap.contains(url)) urlMap(url) += 1
+        else urlMap.put(url, 1)
       }
     }
     case PrintResults => {
+      val originalSender = sender
       val topFiveURLS = TweetMethods.nLargestValuesFromMap(5,urlMap).reverse
       println("\nTop Five URLS\n" + topFiveURLS.mkString("\n"))
-      sender ! "done url"
+      originalSender ! "done url"
     }
   }
 }

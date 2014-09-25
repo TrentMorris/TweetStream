@@ -17,9 +17,10 @@ class EmojiActor extends Actor {
       }
     }
     case PrintResults => {
+      val originalSender = sender
       val topFiveEmojis = TweetMethods.nLargestValuesFromMap(5,emojiMap).reverse
       println("\nTop Five Emojis\n" + topFiveEmojis.mkString("\n"))
-      sender ! "done emojis"
+      originalSender ! "done emojis"
     }
   }
 }

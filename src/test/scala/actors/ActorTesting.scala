@@ -23,12 +23,28 @@ class ActorSpec extends Specification with NoTimeConversions {
         expectMsgType[String] must be equalTo "done url"
       }
     }
+    "have a url in the dictionary after it's sent" in new AkkaTestkitSpecs2Support {
+      within(1 second) {
+        val urlAct = TestActorRef[URLActor]
+        urlAct ! URLs(Array("http://bomb.com"))
+        val urlRef = urlAct.underlyingActor
+        urlRef.urlMap("http://bomb.com") === 1
+      }
+    }
   }
   "A hashtagActor" should {
     "print when sent PrintResults and send done msg" in new AkkaTestkitSpecs2Support {
       within(1 second) {
         system.actorOf(Props[HashtagActor]) ! PrintResults
         expectMsgType[String] must be equalTo "done hashtag"
+      }
+    }
+    "have a hashtag in the dictionary after it's sent" in new AkkaTestkitSpecs2Support {
+      within(1 second) {
+        val hashAct = TestActorRef[HashtagActor]
+        hashAct ! Hashtag(Array("Trent"))
+        val hashRef = hashAct.underlyingActor
+        hashRef.hashtagMap("Trent") === 1
       }
     }
   }
@@ -39,6 +55,14 @@ class ActorSpec extends Specification with NoTimeConversions {
         expectMsgType[String] must be equalTo "done emojis"
       }
     }
+    "have a emoji in the dictionary after it's sent" in new AkkaTestkitSpecs2Support {
+      within(1 second) {
+        val emAct = TestActorRef[EmojiActor]
+        emAct ! Emojis(List("😂"))
+        val emRef = emAct.underlyingActor
+        emRef.emojiMap("😂") === 1
+      }
+    }
   }
   "A langActor" should {
     "print when sent PrintResults and send done msg" in new AkkaTestkitSpecs2Support {
@@ -47,21 +71,22 @@ class ActorSpec extends Specification with NoTimeConversions {
         expectMsgType[String] must be equalTo "done lang"
       }
     }
-  }
-  "Master actor" should {
-    "print after 1000 tweets" in new AkkaTestkitSpecs2Support {
+    "have a language in the dictionary after it's sent" in new AkkaTestkitSpecs2Support {
       within(1 second) {
-      val master = system.actorOf(Props(new Master()), name = "master")
-      for (x <- 0 to 1000) master ! Tweet("test")
-      expectNoMsg
+        val langAct = TestActorRef[LangActor]
+        langAct ! Language("En")
+        val langRef = langAct.underlyingActor
+        langRef.langMap("En") === 1
       }
     }
+
   }
-  // "Master Actor" should {
-  //   "print everything on 1000th tweet" in new AkkaTestkitSpecs2Support {
-  //     within (10 second) {
-  //       for (x <- 0 to 1000) system.actorOf(Props[Master]) ! Tweet
-  //       expectMsgType[String] must be equalTo "done hashtag"
+  // "Master actor" should {
+  //   "print after 1000 tweets" in new AkkaTestkitSpecs2Support {
+  //     within(1 second) {
+  //     val master = system.actorOf(Props(new Master()), name = "master")
+  //     for (x <- 0 to 1000) master ! Tweet("test")
+  //     expectNoMsg
   //     }
   //   }
   // }

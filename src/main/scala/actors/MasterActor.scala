@@ -11,8 +11,8 @@ sealed trait Messages
 case object PrintResults extends Messages
 case class  PrintResults(tweets: Int, hashtags: Int, urls: Int,emojis: Int, time: Long, pictures: Int) extends Messages
 case class  Tweet(message: String) extends Messages
-case class  URLs(urls: Array[URLEntity]) extends Messages
-case class  Hashtag(hash: Array[HashtagEntity]) extends Messages
+case class  URLs(urls: Array[String]) extends Messages
+case class  Hashtag(hash: Array[String]) extends Messages
 case class  Emojis(emojis: List[String]) extends Messages
 case class  Language(lang: String) extends Messages
 
@@ -25,8 +25,6 @@ class Master extends Actor {
   var emojiCount = 0
   val now = new Date
 
-  // val Results = context.actorOf(
-  //   Props[Results].withRouter(SmallestMailboxRouter(4)), name = "Results")
   val URLActor = context.actorOf(
     Props[URLActor].withRouter(SmallestMailboxRouter(10)), name = "URLActor")
   val HashtagActor = context.actorOf(
@@ -40,6 +38,7 @@ class Master extends Actor {
     case s @ Tweet(_) => {
       val time: Long = System.currentTimeMillis - start
       tweetCount += 1
+      
       if (tweetCount % 1000 == 0) {
         println("\n\n\t\tTwitter Stats\n\t" + now )
         println(TweetMethods.formatResults(PrintResults(tweetCount, hashtagCount, urlCount,emojiCount, time, pictureCount)))

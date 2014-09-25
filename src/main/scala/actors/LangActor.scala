@@ -15,9 +15,10 @@ class LangActor extends Actor {
       else langMap.put(l.lang, 1)
     }
     case PrintResults => {
+      val originalSender = sender
       val topTwoLangs = TweetMethods.nLargestValuesFromMap(5,langMap).reverse
       println("\nTop Five Languages\n" + topTwoLangs.mkString("\n"))
-      sender ! "done lang"
+      originalSender ! "done lang"
     }
   }
 }

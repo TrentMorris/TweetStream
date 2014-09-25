@@ -12,14 +12,14 @@ class HashtagActor extends Actor {
   def receive = {
     case h @ Hashtag(_) => {
       for (ht <- h.hash) {
-        if (hashtagMap.contains(ht.getText)) hashtagMap(ht.getText) += 1
-        else hashtagMap.put(ht.getText, 1)
+        if (hashtagMap.contains(ht)) hashtagMap(ht) += 1
+        else hashtagMap.put(ht, 1)
       }
     }
     case PrintResults => {
+      val originalSender = sender
       val topFiveHashtags = TweetMethods.nLargestValuesFromMap(5,hashtagMap).reverse
-      println("\nTop Five Hashtags\n" + topFiveHashtags.mkString("\n"))
-      sender ! "done hashtag"
+      originalSender ! "done hashtag"
     }
   }
 }
