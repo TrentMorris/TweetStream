@@ -759,3 +759,4 @@
 </com.banno.interns.Trent.TweetStreamSpec-results>
 <com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1411621310422"><stats expectations="8" successes="7" examples="8" errors="1" time="139"><trend><stats errors="1" successes="-1" time="139"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
 <com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1411621331009"><stats expectations="8" examples="8" successes="8" time="81"><trend><stats errors="-1" successes="1" time="81"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
+<com.banno.interns.Trent.TweetStreamSpec-stats timestamp="1411621713440"><stats expectations="9" examples="9" successes="9" time="119"><trend><stats expectations="1" examples="1" successes="1" time="119"></stats></trend></stats></com.banno.interns.Trent.TweetStreamSpec-stats>
