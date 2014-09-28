@@ -25,7 +25,7 @@ object TweetStreamSpec extends Specification with TweetMethods {
    "return true if pic.twitter in list of URLs" >> {
       containsPictureURL(Array("kfldsapic.twitter.comjflewqoio","pic.twittr.com")) === true
     }
-
+ 
     "return true if instagram  in list of URLs" >> {
       containsPictureURL(Array("instagram.comfa","witter.comjflewqoio")) === true
 
