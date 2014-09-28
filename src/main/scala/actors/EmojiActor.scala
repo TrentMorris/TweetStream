@@ -7,7 +7,7 @@ import akka.util.duration._
 import twitter4j._
 import java.util.Date
 
-class EmojiActor extends Actor {
+class EmojiActor extends Actor with TweetMethods{
   val emojiMap = scala.collection.mutable.Map[String,Int]()
   def receive = {
     case e @ Emojis(_) => {
@@ -18,7 +18,7 @@ class EmojiActor extends Actor {
     }
     case PrintResults => {
       val originalSender = sender
-      val topFiveEmojis = TweetMethods.nLargestValuesFromMap(5,emojiMap).reverse
+      val topFiveEmojis = nLargestValuesFromMap(5,emojiMap).reverse
       println("\nTop Five Emojis\n" + topFiveEmojis.mkString("\n"))
       originalSender ! "done emojis"
     }

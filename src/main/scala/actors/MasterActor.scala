@@ -16,7 +16,7 @@ case class  Hashtag(hash: Array[String]) extends Messages
 case class  Emojis(emojis: List[String]) extends Messages
 case class  Language(lang: String) extends Messages
 
-class Master extends Actor {
+class Master extends Actor with TweetMethods {
   val start: Long = System.currentTimeMillis
   var tweetCount = 0
   var hashtagCount = 0
@@ -41,13 +41,13 @@ class Master extends Actor {
       
       if (tweetCount % 1000 == 0) {
         println("\n\n\t\tTwitter Stats\n\t" + now )
-        println(TweetMethods.formatResults(PrintResults(tweetCount, hashtagCount, urlCount,emojiCount, time, pictureCount)))
+        println(formatResults(PrintResults(tweetCount, hashtagCount, urlCount,emojiCount, time, pictureCount)))
         EmojiActor ! PrintResults
         URLActor ! PrintResults
         HashtagActor ! PrintResults
         LangActor ! PrintResults
       }
-      val emojiList: List[String] = TweetMethods.getEmojis(s.message)
+      val emojiList: List[String] = getEmojis(s.message)
       if (emojiList.size != 0) emojiCount += 1
       EmojiActor ! Emojis(emojiList)
     }
@@ -56,7 +56,7 @@ class Master extends Actor {
       HashtagActor ! Hashtag(h.hash)
     }
     case u @ URLs(_) => {
-      if (TweetMethods.containsPictureURL(u.urls)) pictureCount += 1
+      if (containsPictureURL(u.urls)) pictureCount += 1
       if (u.urls.size != 0) urlCount += 1    
       URLActor ! URLs(u.urls)
     }

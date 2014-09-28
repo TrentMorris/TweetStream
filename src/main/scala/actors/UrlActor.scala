@@ -7,7 +7,7 @@ import akka.util.duration._
 import twitter4j._
 import java.util.Date
 
-class URLActor extends Actor {
+class URLActor extends Actor with TweetMethods{
   val urlMap = scala.collection.mutable.Map[String,Int]()
   def receive = {
     case u @ URLs(_) => {
@@ -18,7 +18,7 @@ class URLActor extends Actor {
     }
     case PrintResults => {
       val originalSender = sender
-      val topFiveURLS = TweetMethods.nLargestValuesFromMap(5,urlMap).reverse
+      val topFiveURLS = nLargestValuesFromMap(5,urlMap).reverse
       println("\nTop Five URLS\n" + topFiveURLS.mkString("\n"))
       originalSender ! "done url"
     }

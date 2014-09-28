@@ -7,7 +7,7 @@ import akka.util.duration._
 import twitter4j._
 import java.util.Date
 
-class HashtagActor extends Actor {
+class HashtagActor extends Actor with TweetMethods{
   val hashtagMap = scala.collection.mutable.Map[String,Int]()
   def receive = {
     case h @ Hashtag(_) => {
@@ -18,7 +18,7 @@ class HashtagActor extends Actor {
     }
     case PrintResults => {
       val originalSender = sender
-      val topFiveHashtags = TweetMethods.nLargestValuesFromMap(5,hashtagMap).reverse
+      val topFiveHashtags = nLargestValuesFromMap(5,hashtagMap).reverse
       originalSender ! "done hashtag"
     }
   }
