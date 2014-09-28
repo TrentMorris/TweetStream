@@ -1,7 +1,7 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(com.banno.interns.Trent.ActorSpec, sbt.SubclassFingerprintWrapper@58e49a46, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(com.banno.interns.Trent.TweetStreamSpec, sbt.SubclassFingerprintWrapper@1048fc3e, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.banno.interns.Trent.ActorSpec, sbt.SubclassFingerprintWrapper@c3f70b1, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.banno.interns.Trent.TweetStreamSpec, sbt.SubclassFingerprintWrapper@1593a9e, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
 [0m[[0minfo[0m] [0mPassed: Total 17, Failed 0, Errors 0, Passed 17[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	com.banno.interns.Trent.TweetStreamSpec[0m
 [0m[[0mdebug[0m] [0m	com.banno.interns.Trent.ActorSpec[0m
+[0m[[0mdebug[0m] [0m	com.banno.interns.Trent.TweetStreamSpec[0m
