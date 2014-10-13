@@ -25,14 +25,10 @@ class Master extends Actor with TweetMethods {
   var emojiCount = 0
   val now = new Date
 
-  val URLActor = context.actorOf(
-    Props[URLActor].withRouter(SmallestMailboxRouter(10)), name = "URLActor")
-  val HashtagActor = context.actorOf(
-    Props[HashtagActor].withRouter(SmallestMailboxRouter(10)), name = "HashtagActor")
-  val EmojiActor = context.actorOf(
-    Props[EmojiActor].withRouter(SmallestMailboxRouter(10)), name = "EmojiActor")
-  val LangActor = context.actorOf(
-    Props[LangActor].withRouter(SmallestMailboxRouter(10)), name = "LangActor")
+  val URLActor = context.actorOf(Props[URLActor], name = "URLActor")
+  val HashtagActor = context.actorOf(Props[HashtagActor], name = "HashtagActor")
+  val EmojiActor = context.actorOf(Props[EmojiActor], name = "EmojiActor")
+  val LangActor = context.actorOf(Props[LangActor], name = "LangActor")
 
   def receive = {
     case s @ Tweet(_) => {
